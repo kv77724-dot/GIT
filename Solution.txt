@@ -1,0 +1,23 @@
+All Commands Used:
+1.mkdir Project_DIR
+2.cd Project_DIR
+3.touch test1.txt test2.txt test3.txt && git init
+4.git checkout -b dev
+5.git add test1.txt
+6.git commit -m 'test1 added'
+7.git checkout -b test
+8.git add test2.txt test3.txt
+9.git commit -m 'test2 test3 added'
+10.git diff (after making changes to file test1.txt)
+11.git checkout -b master
+12.git merge dev
+13.git merge test
+14.git remote add origin <Repo-URL>
+15.git branch -M master
+16.git push -u origin master.
+17.mkdir Clone (New Directory made somewhere else in Drive)
+18.cd Clone
+19.git clone <Repo-URL>
+20.cd <Project_Name_cloned>
+21.touch Solution.txt (After making file adding all file contents manually)
+22.git push -u origin master
